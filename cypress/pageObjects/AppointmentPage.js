@@ -27,4 +27,13 @@ export class AppointmentPage {
     static get bookAppointment(){
         return cy.get("#btn-book-appointment");
     }
+
+    static get menuButton(){
+        return cy.get("a#menu-toggle");
+      }
+
+    static get sideBar(){
+        return cy.get("nav#sidebar-wrapper");
+    }
+
   }
